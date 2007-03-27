@@ -1,0 +1,65 @@
+dia2code
+------------------------------------------
+Dia2Code is a small utility used to generate code from a Dia diagram. 
+Dia2Code basically reads a Dia diagram file that contains an UML class 
+diagram and creates files in the language of choice that contain the 
+bare bones of the classes represented in the diagram.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libxml2-2.6.27-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://dia2code.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/dia2code
+
+-------------------------------------------
+
+Build instructions:
+  unpack dia2code-0.8.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./dia2code-0.8.3-X.cygport all
+
+This will create:
+  /usr/src/dia2code-0.8.3-X-src.tar.bz2
+  /usr/src/dia2code-0.8.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/dia2code.exe
+  /usr/share/doc/Cygwin/dia2code-0.8.3.README
+  /usr/share/doc/dia2code-0.8.3/AUTHORS
+  /usr/share/doc/dia2code-0.8.3/COPYING
+  /usr/share/doc/dia2code-0.8.3/ChangeLog
+  /usr/share/doc/dia2code-0.8.3/INSTALL
+  /usr/share/doc/dia2code-0.8.3/README
+  /usr/share/doc/dia2code-0.8.3/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.8.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

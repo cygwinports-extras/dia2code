@@ -1,0 +1,3 @@
+DESCRIPTION="Generates code from a Dia UML diagram"
+HOMEPAGE="http://dia2code.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
