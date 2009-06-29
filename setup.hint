@@ -1,5 +1,5 @@
 category: Devel
-requires: cygwin libxml2
+requires: libxml2
 sdesc: "Generates code from Dia UML diagrams"
 ldesc: "Dia2Code is a small utility used to generate code from a Dia 
 diagram. Dia2Code basically reads a Dia diagram file that contains an 
